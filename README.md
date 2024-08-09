@@ -16,7 +16,8 @@ Carrying this process and procedure through can allows scientists and researcher
 11. After clarifying, set the NET and DATASET variables using NET=models/ocean_creatures and DATASET=data/ocean_creatures.
 12. Now run this command and let the machine do the rest imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/mammal/mammal/2170403941_8cfe75dbd2_o.jpg mammalian.jpg (you can customize the end variable "mammalian.jpg" and choose another file and directory for the "test/mammal/mammal/file.jpg" but make sure to type the mammal or fish folder twice.
 # References:
-VSC (Visual Studio Code)
-NumPy
-Pytorch
-video link: https://drive.google.com/file/d/1O7kjKA-4ObZ94ZGNBm3O7jyiFtzmjzWW/view?usp=drive_link 
+1. VSC (Visual Studio Code)
+2. NumPy
+3. Pytorch
+4. video link: https://drive.google.com/file/d/1O7kjKA-4ObZ94ZGNBm3O7jyiFtzmjzWW/view?usp=drive_link 
+5. kaggle dataset: https://www.kaggle.com/datasets/vencerlanz09/sea-animals-image-dataste
